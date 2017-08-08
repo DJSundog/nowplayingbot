@@ -1,0 +1,27 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "nowplayingbot",
+  "version": "0.1.0",
+  "description": "A simple, naive bot for Mastodon that announces new scrobbles to a libre.fm account",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mastodon": "^1.2.1",
+    "node-fetch": "^1.7.1",
+    "youtube-search": "^1.0.10"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "mastodon"
+  ]
+}
